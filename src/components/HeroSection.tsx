@@ -27,7 +27,7 @@ const HeroSection = () => {
             </section>
 
             <section className='grid grid-cols-12 grid-rows-12 relative'>
-                <div className="col-span-12 row-span-10 bg-[linear-gradient(to_right_bottom,rgba(22,33,84,0.9),rgba(55,92,157,0.8)),url('/plumbing-home.jpg')]  text-white" style={{ backgroundSize: 'cover' }}>
+                <div className="col-span-12 row-span-10 bg-[linear-gradient(to_bottom,rgba(22,33,84,0.9),rgba(55,92,157,0.6)),url('/plumbing-home.jpg')]  text-white" style={{ backgroundSize: 'cover' }}>
                     <nav className="px-14 py-6 flex justify-between items-center">
                         <div className="">
                             <span className="text-3xl tracking-wider font-medium">Business Logo</span>
