@@ -9,9 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'heropattern': "linear-gradient(to_top_bottom, rgba('#162154',0.8), rgba('#375c9d',0.8)), url('/plumbing-home.jpg')",
       },
     },
     colors: {
@@ -26,7 +24,11 @@ const config: Config = {
       gray: {
         1: '#2c262e',
         2: '#878f9f',
-      }
+      },
+      white: '#ffffff'
+    },
+    lineHeight: {
+      'extra-tight': '1.15',
     }
   },
   plugins: [],
