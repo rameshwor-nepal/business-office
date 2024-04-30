@@ -4,13 +4,13 @@ import Image from 'next/image';
 
 const Carousel = () => {
     const [activeSlide, setActiveSlide] = useState(0);
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setActiveSlide((prevIndex) => (prevIndex + 1) % 4);
-        }, 5000);
+    // useEffect(() => {
+    //     const interval = setInterval(() => {
+    //         setActiveSlide((prevIndex) => (prevIndex + 1) % 4);
+    //     }, 5000);
 
-        return () => clearInterval(interval);
-    }, []);
+    //     return () => clearInterval(interval);
+    // }, []);
     const handleSlideClick = (index: number) => {
         setActiveSlide(index);
     };

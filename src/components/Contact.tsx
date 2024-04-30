@@ -5,11 +5,11 @@ const Contact = () => {
         <section className='relative'>
             <div className="bg-[linear-gradient(to_bottom,rgba(22,33,84,0.8),rgba(55,92,157,0.9)),url('/p5.jpg')] w-full h-[28rem] py-16" style={{ backgroundSize: 'cover', backgroundPosition: "center" }}>
                 <div className='text-center'>
-                    <div className='flex items-center gap-3 ml-[40%]'>
+                    <div className='flex items-center gap-3 lg:ml-[40%] sm:ml-[30%] ml-[20%]'>
                         <span className='text-cyan-1 text-lg'>Have some work with us? </span>
                         <p className='w-20 h-[2px] bg-cyan-1 '></p>
                     </div>
-                    <h1 className='text-6xl text-white font-extrabold leading-extra-tight my-3'>
+                    <h1 className='lg:text-6xl text-4xl text-white font-extrabold leading-extra-tight my-3'>
                         Request A Quote Today
                     </h1>
                     <p className='text-white text-lg'>
@@ -17,10 +17,10 @@ const Contact = () => {
                     </p>
                 </div>
             </div>
-            <div className='flex gap-20 px-32 my-10'>
+            <div className='flex flex-col lg:flex-row lg:gap-20 gap-10 xl:px-32 lg:px-24 sm:px-12 px-12 lg:my-10 sm:my-6 my-4 '>
                 <section className="bg-gray-100 w-full flex-1 shadow-[8px_8px_0px_0px_rgba(84,219,255)] mt-[-10rem] h-fit">
                     <div className=" bg-white p-8 shadow-lg  lg:p-12 border-2 border-gray-3 border-solid">
-                        <h1 className='text-3xl text-blue-2 font-extrabold leading-extra-tight my-6'>
+                        <h1 className='lg:text-3xl text-2xl text-blue-2 font-extrabold leading-extra-tight my-6'>
                             Request A Free Quote
                         </h1>
                         <form action="" className="space-y-4 pb-10">
@@ -73,7 +73,7 @@ const Contact = () => {
                     </div>
                 </section>
 
-                <section className='py-12 flex-1'>
+                <section className='lg:py-12 py-1 flex-1'>
                     <div className='py-6'>
                         <div className='flex items-center gap-3'>
                             <span className='text-cyan-1 text-lg'>Have some work with us? </span>
