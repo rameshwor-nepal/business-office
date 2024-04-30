@@ -2,6 +2,7 @@ import React from 'react'
 import { FaInstagram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa'
 import { MdArrowForward } from 'react-icons/md'
 import Image from 'next/image'
+import Carousel from './ui/Carousel'
 
 const HeroSection = () => {
     return (
@@ -73,7 +74,8 @@ const HeroSection = () => {
                     </div>
                 </div>
                 <div className="w-[27rem] h-[40rem] z-10 absolute top-48 right-32">
-                    <Image src={'/PLUMBING.jpg'} alt="image1" fill objectFit='cover' />
+                    {/* <Image src={'/PLUMBING.jpg'} alt="image1" fill objectFit='cover' /> */}
+                    <Carousel />
                 </div>
                 <div className="bg-cyan-1 col-span-12 row-span-2 pt-14 px-32">
                     <span className="text-5xl font-extrabold text-white"> 20% Year of Experience</span>
