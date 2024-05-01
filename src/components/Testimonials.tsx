@@ -13,7 +13,7 @@ const Testimonials = () => {
                         <p className='w-20 h-[2px] bg-cyan-1 '></p>
                     </div>
                     <h1 className='xl:text-7xl md:text-5xl sm:text-4xl text-3xl text-blue-2 font-extrabold leading-extra-tight my-3'>
-                        Client's Testimonials
+                        Client&apos;s Testimonials
                     </h1>
                     <p className='text-gray-1 text-lg'>
                         Here what our customer are saying about Your Business Name LLC
