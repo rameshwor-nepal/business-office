@@ -8,7 +8,7 @@ const Testimonials = () => {
         <section className="xl:px-32 lg:px-24 sm:px-12 px-12 lg:py-20 sm:py-14 py-6  h-fit relative w-fit bg-[linear-gradient(to_top,rgba(255,255,255,1),rgba(255,255,255,0.8),rgba(255,255,255,0.8)),url('/p5.jpg')]" style={{ backgroundSize: 'cover' }}>
             <div className='flex flex-col md:flex-row items-center gap-8 md:gap-16 justify-between'>
                 <div className=''>
-                    <div className='flex items-center gap-3' data-aos="fade-right" data-aos-duration="500">
+                    <div className='flex items-center gap-3' data-aos="fade-right" data-aos-duration="1000">
                         <span className='text-blue-2 text-lg'>What our client say</span>
                         <p className='w-20 h-[2px] bg-cyan-1 '></p>
                     </div>
@@ -42,7 +42,7 @@ const Testimonials = () => {
             </div>
             <div
                 className='ml-[35%] mt-[-10%] relative border-[10px] border-solid border-cyan-1 rounded-[50%] w-[11rem] h-[11rem]'
-                data-aos="zoom-in" data-aos-duration="500"
+                data-aos="zoom-in" data-aos-duration="1000"
             >
                 <Image src={'/man.jpg'} alt='testimonials' fill objectFit='cover' className='rounded-[50%]' />
             </div>

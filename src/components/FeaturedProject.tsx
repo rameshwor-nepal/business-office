@@ -24,7 +24,7 @@ const FeaturedProject = () => {
                     <div
                         className="lg:col-span-3 sm:col-span-6 col-span-12 bg-[linear-gradient(to_top,rgba(22,33,84,0.8),rgba(55,92,157,0.8)),url('/p4.jpg')]"
                         style={{ backgroundSize: 'cover' }}
-                        data-aos="zoom-in" data-aos-duration="500"
+                        data-aos="zoom-in" data-aos-duration="1000"
                     >
                         <h1 className='text-white text-right text-3xl font-extrabold pt-7 px-6'>
                             Project Title 01
@@ -36,7 +36,7 @@ const FeaturedProject = () => {
                     <div
                         className="lg:col-span-3 sm:col-span-6 col-span-12 bg-[linear-gradient(to_top,rgba(22,33,84,0.8),rgba(55,92,157,0.8)),url('/p5.jpg')]"
                         style={{ backgroundSize: 'cover' }}
-                        data-aos="zoom-in" data-aos-duration="500"
+                        data-aos="zoom-in" data-aos-duration="1000"
                     >
                         <h1 className='text-white text-right text-3xl font-extrabold pt-7 px-6'>
                             Project Title 02
@@ -48,7 +48,7 @@ const FeaturedProject = () => {
                     <div
                         className="lg:col-span-3 sm:col-span-6 col-span-12 bg-[linear-gradient(to_top,rgba(22,33,84,0.8),rgba(55,92,157,0.8)),url('/p6.jpg')]"
                         style={{ backgroundSize: 'cover' }}
-                        data-aos="zoom-in" data-aos-duration="500"
+                        data-aos="zoom-in" data-aos-duration="1000"
                     >
                         <h1 className='text-white text-right text-3xl font-extrabold pt-7 px-6'>
                             Project Title 03
@@ -60,7 +60,7 @@ const FeaturedProject = () => {
                     <div
                         className="lg:col-span-3 sm:col-span-6 col-span-12 bg-[linear-gradient(to_top,rgba(22,33,84,0.8),rgba(55,92,157,0.8)),url('/p7.jpg')]"
                         style={{ backgroundSize: 'cover' }}
-                        data-aos="zoom-in" data-aos-duration="500"
+                        data-aos="zoom-in" data-aos-duration="1000"
                     >
                         <h1 className='text-white text-right text-3xl font-extrabold pt-7 px-6'>
                             Project Title 04

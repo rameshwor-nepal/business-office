@@ -11,7 +11,7 @@ const Services = () => {
             </div>
             <section className=' xl:px-32 lg:px-20 sm:px-16 px-10 h-fit py-16'>
                 <div className='z-10'>
-                    <div className='flex items-center gap-3' data-aos="fade-right" data-aos-duration="500">
+                    <div className='flex items-center gap-3' data-aos="fade-right" data-aos-duration="1000">
                         <span className='text-blue-2 text-lg'>What we are offering</span>
                         <p className='w-20 h-[2px] bg-cyan-1 '></p>
                     </div>
@@ -25,7 +25,7 @@ const Services = () => {
                 <div className='grid grid-cols-12 gap-6 mt-6 z-10'>
                     <div
                         className='lg:col-span-5 md:col-span-6  col-span-12 p-6 border-solid border-2 border-cyan-1 relative bg-white'
-                        data-aos="fade-right" data-aos-duration="500"
+                        data-aos="fade-right" data-aos-duration="1000"
                     >
                         <h4 className='text-blue-2 text-3xl my-2 '>Plumbing</h4>
                         <p className=''>
@@ -47,7 +47,7 @@ const Services = () => {
 
                     <div
                         className='lg:col-span-5 md:col-span-6   col-span-12 p-6 border-solid border-2 border-cyan-1 relative bg-white'
-                        data-aos="fade-left" data-aos-duration="500"
+                        data-aos="fade-left" data-aos-duration="1000"
                     >
                         <h4 className='text-blue-2 text-3xl my-2 '>Water Treatment</h4>
                         <p className=''>
@@ -68,7 +68,7 @@ const Services = () => {
                     </div>
 
                     <div className='md:col-span-6 col-span-12 p-6 border-solid border-2 border-cyan-1 relative bg-white'
-                        data-aos="fade-right" data-aos-duration="500"
+                        data-aos="fade-right" data-aos-duration="1000"
                     >
                         <h4 className='text-blue-2 text-3xl my-2 '>Commercial Property Maintenance</h4>
                         <p className=''>
@@ -90,7 +90,7 @@ const Services = () => {
 
                     <div
                         className='md:col-span-6 col-span-12 p-6 border-solid border-2 border-cyan-1 relative bg-white'
-                        data-aos="fade-left" data-aos-duration="500"
+                        data-aos="fade-left" data-aos-duration="1000"
                     >
                         <h4 className='text-blue-2 text-3xl my-2 '>Preventative Maintenance</h4>
                         <p className=''>

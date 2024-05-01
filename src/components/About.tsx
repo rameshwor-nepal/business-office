@@ -17,7 +17,7 @@ const About = () => {
 
 
             <div className='max-w-[35rem]'>
-                <div className='flex items-center gap-3' data-aos="fade-left" data-aos-duration="500">
+                <div className='flex items-center gap-3' data-aos="fade-left" data-aos-duration="1000">
                     <span className='text-blue-2 text-lg'>About Our Company</span>
                     <p className='w-20 h-[2px] bg-cyan-1 '></p>
                 </div>
@@ -38,7 +38,7 @@ const About = () => {
                 </p>
                 <button
                     className="md:py-5 md:px-10 py-4 px-8 text-lg bg-blue-2 text-white font-bold flex items-center gap-2 mt-12"
-                    data-aos="zoom-in" data-aos-duration="500"
+                    data-aos="zoom-in" data-aos-duration="1000"
                 >
                     <span>
                         Read More

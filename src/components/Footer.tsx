@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className="flex flex-col lg:flex-row md:gap-10 lg:gap-16">
                         <div
                             className="mb-6 bg-white p-6 w-[23.5rem] h-[12rem] overflow-hidden flex flex-col gap-4"
-                            data-aos="zoom-in" data-aos-duration="500"
+                            data-aos="zoom-in" data-aos-duration="1000"
                         >
                             <span className="lg:text-3xl text-xl text-blue-2 font-medium">Business Logo</span>
                             <span className="self-center text-gray-1">
