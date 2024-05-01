@@ -5,7 +5,7 @@ const Contact = () => {
         <section className='relative'>
             <div className="bg-[linear-gradient(to_bottom,rgba(22,33,84,0.8),rgba(55,92,157,0.9)),url('/p5.jpg')] w-full h-[28rem] py-16" style={{ backgroundSize: 'cover', backgroundPosition: "center" }}>
                 <div className='text-center'>
-                    <div className='flex items-center gap-3 lg:ml-[40%] sm:ml-[30%] ml-[20%]'>
+                    <div className='flex items-center gap-3 lg:ml-[40%] sm:ml-[30%] ml-[20%]' data-aos="fade-right" data-aos-duration="500">
                         <span className='text-cyan-1 text-lg'>Have some work with us? </span>
                         <p className='w-20 h-[2px] bg-cyan-1 '></p>
                     </div>
@@ -24,7 +24,7 @@ const Contact = () => {
                             Request A Free Quote
                         </h1>
                         <form action="" className="space-y-4 pb-10">
-                            <div>
+                            <div data-aos="fade-right" data-aos-duration="500">
                                 <input
                                     className="w-full  border-gray-3 border-2 border-solid p-3 text-sm"
                                     placeholder="Name"
@@ -32,7 +32,7 @@ const Contact = () => {
                                     id="name"
                                 />
                             </div>
-                            <div>
+                            <div data-aos="fade-right" data-aos-duration="500">
                                 <input
                                     className="w-full  border-gray-3 border-2 border-solid p-3 text-sm"
                                     placeholder="Your Email"
@@ -41,7 +41,7 @@ const Contact = () => {
                                 />
                             </div>
 
-                            <div>
+                            <div data-aos="fade-right" data-aos-duration="500">
                                 <input
                                     className="w-full  border-gray-3 border-2 border-solid p-3 text-sm"
                                     placeholder="Contact Number"
@@ -49,7 +49,7 @@ const Contact = () => {
                                     id="name"
                                 />
                             </div>
-                            <div>
+                            <div data-aos="fade-right" data-aos-duration="500">
                                 <input
                                     className="w-full  border-gray-3 border-2 border-solid p-3 text-sm"
                                     placeholder="Service title"
@@ -57,7 +57,7 @@ const Contact = () => {
                                     id="name"
                                 />
                             </div>
-                            <div>
+                            <div data-aos="fade-right" data-aos-duration="500">
                                 <textarea
                                     className="w-full  border-gray-3 border-2 border-solid p-3 text-sm"
                                     placeholder="Service Description"
@@ -66,7 +66,10 @@ const Contact = () => {
                                 ></textarea>
                             </div>
 
-                            <div className="mt-4 w-full text-center  bg-blue-2 px-5 py-3 font-medium text-white sm:w-auto">
+                            <div
+                                className="mt-4 w-full text-center  bg-blue-2 px-5 py-3 font-medium text-white sm:w-auto"
+                                data-aos="fade-right" data-aos-duration="500"
+                            >
                                 Send Request
                             </div>
                         </form>
@@ -75,7 +78,7 @@ const Contact = () => {
 
                 <section className='lg:py-12 py-1 flex-1'>
                     <div className='py-6'>
-                        <div className='flex items-center gap-3'>
+                        <div className='flex items-center gap-3' data-aos="fade-right" data-aos-duration="500">
                             <span className='text-cyan-1 text-lg'>Have some work with us? </span>
                             <p className='w-20 h-[2px] bg-cyan-1 '></p>
                         </div>

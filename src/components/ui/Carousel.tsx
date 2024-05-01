@@ -4,13 +4,13 @@ import Image from 'next/image';
 
 const Carousel = () => {
     const [activeSlide, setActiveSlide] = useState(0);
-    // useEffect(() => {
-    //     const interval = setInterval(() => {
-    //         setActiveSlide((prevIndex) => (prevIndex + 1) % 4);
-    //     }, 5000);
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setActiveSlide((prevIndex) => (prevIndex + 1) % 4);
+        }, 5000);
 
-    //     return () => clearInterval(interval);
-    // }, []);
+        return () => clearInterval(interval);
+    }, []);
     const handleSlideClick = (index: number) => {
         setActiveSlide(index);
     };
@@ -19,7 +19,7 @@ const Carousel = () => {
         <>
             <div id="default-carousel" className="relative w-full" data-carousel="slide">
                 <div className="relative h-56 md:h-[40rem]">
-                    <div className={`duration-800 ease-in-out opacity-${activeSlide === 0 ? '100' : '0'} transition-opacity`} data-carousel-item style={{ display: activeSlide === 0 ? 'block' : 'none' }}>
+                    <div className={` duration-800 ease-in-out opacity-${activeSlide === 0 ? '100' : '0'} transition-opacity`} data-carousel-item style={{ display: activeSlide === 0 ? 'block' : 'none' }}>
                         <Image src={"/plumbing-hero.jpg"} fill objectFit='cover' alt="..." />
                     </div>
                     <div className={`duration-800 ease-in-out opacity-${activeSlide === 1 ? '100' : '0'} transition-opacity`} data-carousel-item style={{ display: activeSlide === 1 ? 'block' : 'none' }}>

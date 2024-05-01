@@ -9,7 +9,10 @@ const Footer = () => {
             <footer className="bg-blue-2">
                 <section className="mx-auto w-full xl:px-32 lg:px-24 sm:px-8 px-6 lg:py-20 sm:py-14 py-6 ">
                     <div className="flex flex-col lg:flex-row md:gap-10 lg:gap-16">
-                        <div className="mb-6 bg-white p-6 w-[23.5rem] h-[12rem] overflow-hidden flex flex-col gap-4">
+                        <div
+                            className="mb-6 bg-white p-6 w-[23.5rem] h-[12rem] overflow-hidden flex flex-col gap-4"
+                            data-aos="zoom-in" data-aos-duration="500"
+                        >
                             <span className="lg:text-3xl text-xl text-blue-2 font-medium">Business Logo</span>
                             <span className="self-center text-gray-1">
                                 Locally owned and operated company with 20 years of industry experience. We value honesty and integrity in all

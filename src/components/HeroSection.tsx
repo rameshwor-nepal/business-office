@@ -64,13 +64,19 @@ const HeroSection = () => {
                             <p className="md:pb-4 pb-3 text-lg">
                                 Building with Confidence
                             </p>
-                            <h1 className="text-5xl md:text-[80px] lg:text-[90px] leading-extra-tight font-bold">
+                            <h1
+                                className="text-5xl md:text-[80px] lg:text-[90px] leading-extra-tight font-bold"
+                                data-aos="fade-right" data-aos-duration="500"
+                            >
                                 Building and Maintaining Your Dreams
                             </h1>
                             <p>
                                 Fast, Friendly home repair service done right the first time!!
                             </p>
-                            <button className="md:py-5 md:px-10 py-4 px-8 text-lg bg-white text-blue-2 font-bold flex items-center gap-2 mt-8 mb-20">
+                            <button
+                                className="md:py-5 md:px-10 py-4 px-8 text-lg bg-white text-blue-2 font-bold flex items-center gap-2 mt-8 mb-20"
+                                data-aos="fade-right" data-aos-duration="500"
+                            >
                                 <span>
                                     Expore More
                                 </span>
@@ -81,14 +87,22 @@ const HeroSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="hidden lg:block xl:w-[27rem] xl:h-[40rem] w-[20rem] h-[25rem] top-48 right-3 z-10 absolute  xl:right-32">
+                <div
+                    className="hidden lg:block xl:w-[27rem] xl:h-[40rem] w-[20rem] h-[25rem] top-48 right-3 z-10 absolute  xl:right-32"
+                    data-aos="fade-left" data-aos-duration="500"
+                >
                     {/* <Image src={'/PLUMBING.jpg'} alt="image1" fill objectFit='cover' /> */}
                     <Carousel />
                 </div>
                 <div className="bg-cyan-1 col-span-12 row-span-2 lg:pt-14 pt-10 xl:px-32 lg:px-24 sm:px-12 px-12">
-                    <span className="lg:text-5xl text-xl sm:3xl font-extrabold text-white"> 20% Year of Experience</span>
+                    <p data-aos="zoom-in" data-aos-duration="500"
+                        className="lg:text-5xl text-xl sm:3xl font-extrabold text-white">
+                        20% Year of Experience
+                    </p>
                 </div>
             </section>
+
+            {/* section for mobile navbar */}
             {
                 isMobileNavBar &&
                 <section className='block absolute top-0 w-full bg-blue-1 h-screen text-white sm:hidden'>
